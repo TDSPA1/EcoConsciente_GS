@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz sobre Energia Renovável</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <br>
+    <img src="/images/eco.png" alt="folha" id="eco">
+    <header>
+          <nav>
+              <ul id="menu">
+                  <li><a href="/HTML/index.html">Inicio</a></li>
+                  <li><a href="/HTML/integrante.html">Integrantes</a></li>
+                  <li><a href="energia.html" target="_blank" title="O que é Energia Renovavél">O que é Energia Renovável</a></li>
+                  <li><a href="quiz.html">O Quiz</a></li>
+                  <li><a href="dicas.html">Dicas para sua Casa</a></li>
+                  <li><a href="sucesso.html">Histórias de Sucesso</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+              </ul>
+          </nav>
+      </header>
+      <br><br>
+    <div class="quiz-container">
+        <div class="quiz-header" id="quiz-header">
+            <h1 id="contatoo">Quiz sobre Energia Renovável</h1>
+            <br>
+            <p>Teste seus conhecimentos sobre fontes de energia renováveis!</p>
+        </div>
+    
+        <div class="quiz-body" id="quiz-body">
+            <div id="question-container" class="question-container">
+                <!-- A pergunta será carregada aqui dinamicamente -->
+                <p id="question" class="question-text"></p>
+                <ul id="options" class="options-list">
+                    <!-- As opções serão carregadas aqui -->
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="quiz-footer" id="quiz-footer">
+            <div id="result-container" class="result-container" style="display:none;">
+                <p id="result-message" class="result-message"></p>
+                <button id="next-button" class="next-button">Próxima Pergunta</button>
+            </div>
+            <p id="score-container" class="score-container">
+                <strong>Pontuação: </strong><span id="score">0</span> / <span id="total-questions">0</span>
+            </p>
+        </div>
+    </div>
+<br>
+<br>
+<br>    
+<footer>
+        <p>&copy; 2024 - Energia Renovável para Todos<p>
+    </footer>
+
+    <script src="/JS/quiz.js"></script>
+</body>
+</html>
